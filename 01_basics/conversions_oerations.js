@@ -48,3 +48,28 @@ let stringNum=String(someN);
 console.log(typeof stringNum);
 
 
+//operations:-
+console.log(2+"2");
+console.log("1"+2);
+console.log(1+2+"3");
+console.log("1"+2+3);
+
+//tricky conversion(please avoid these types of conversions):-
+console.log(+true);
+console.log(+"");
+console.log(+false);
+
+
+//ways of writing to be avoided:-
+let num1,num2,num3;
+num1=num2=num3=2+2;
+
+// post increment operator:-
+let yeah=0;
+console.log(yeah++);
+console.log(yeah);
+
+//pre increment operator:-
+let yup=1;
+console.log(++yup);
+console.log(yup);
